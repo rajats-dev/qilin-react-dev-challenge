@@ -1,0 +1,66 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form {
+  display: flex;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+/* Error Message Styling */
+
+.error-message {
+  margin: 30px;
+  margin-top: 70px;
+  width: max-content;
+  background-color: rgb(173, 5, 5);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Success Message Styling */
+
+.success-message {
+  margin: 30px;
+  margin-top: 70px;
+  width: max-content;
+  background-color: rgb(13, 173, 5);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
